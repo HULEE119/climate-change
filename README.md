@@ -2,6 +2,7 @@
 
 
 * Background and Overview 
+    
     Climate Change: Global Sea Level is a full JavaScript project.
 
 * Functionality and MVPs 
