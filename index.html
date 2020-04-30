@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <!-- data scripts -->
+    <script src="src/scripts/bar-chart.js" defer></script>
+    <script src="src/scripts/line-chart.js" defer></script>
+
+    <title>Climate Change: Global Sea Level</title>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Climate Change: Global Sea Level</h1>
+        <div class="progress-container">
+            <div class="progress-bar" id="scrollBar"></div>
+        </div> 
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("scrollBar").style.width = scrolled + "%";
+        }
+    </script>
+    
+    <div class="section-1-container"> 
+        <div class="section-1">
+            <p class="section-1-title">Why sea level matters</p>
+            <p>
+                In the United States, almost 40 percent of the population lives in relatively high population-density coastal areas, where sea level plays a role in flooding, shoreline erosion, and hazards from storms. Globally, 8 of the world’s 10 largest cities are near a coast, according to the U.N. Atlas of the Oceans.
+            </p>
+        </div>
+    </div>
+
+    <div class="bar-chart-title">
+        <p>Sea Level Change (1880 - 2020)</p>
+    </div>
+
+    <div class="bar-chart-container">
+        <canvas id="bar-chart"></canvas>
+    </div>
+
+    <div class="bar-chart-footer">
+        <p>Year</p>
+    </div>
+
+    <div class="bar-chart-info">
+        <p>The global mean water level in the ocean rose by 0.14 inches (3.6 millimeters) per year from 2006–2015, which was 2.5 times the average rate of 0.06 inches (1.4 millimeters) per year throughout most of the twentieth century. By the end of the century, global mean sea level is likely to rise at least one foot (0.3 meters) above 2000 levels, even if greenhouse gas emissions follow a relatively low pathway in coming decades.</p>
+        <p>In some ocean basins, sea level rise has been as much as 6-8 inches (15-20 centimeters) since the start of the satellite record. Regional differences exist because of natural variability in the strength of winds and ocean currents, which influence how much and where the deeper layers of the ocean store heat.</p>
+    </div>
+
+
+    <div class="bar-chart-title">
+        <p>Minimum Arttic Sea Ice Extent (1979 - 2019)</p>
+    </div>
+
+    <div class="line-chart-container">
+        <canvas id="line-chart"></canvas>
+    </div>
+
+    <div class="bar-chart-footer">
+        <p>Year</p>
+    </div>
+
+    <div class="highlight-container">
+        <p>Highlights</p>
+        <p>• Sea level has risen 8–9 inches (21–24 centimeters) since 1880.</p>
+        <p>• In 2018, global sea level was 3.2 inches (81 mm) above the 1993 average—the highest annual average in the satellite record (1993-present).</p>
+        <p>• In many locations along the U.S. coastline, high-tide flooding is now 300% to more than 900% more frequent than it was 50 years ago.</p>
+        <p>• To learn more please visit <a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level">the official site here.</a></p>
+    </div>
+
+    <div class="footer">
+        <p>Thank you for visiting my site - created by Christina Hu-Lee</p>
+        <a href="https://www.linkedin.com/in/mengyuanhu/" target=“blank”><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/HULEE119" target=“blank”><i class="fab fa-github"></i></a>
+        <a href="https://angel.co/u/mengyuan-christina-hu" target=“blank”><i class="fab fa-angellist"></i></a>
+    </div>
+
+</body>
+</html>

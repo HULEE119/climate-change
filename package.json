@@ -24,7 +24,9 @@
     "url": "https://github.com/HULEE119/javascript_project/issues"
   },
   "homepage": "https://github.com/HULEE119/javascript_project#readme",
-  "dependencies": {},
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",

@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #022B3A;
+}
+
+.page-header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    margin-top: -100px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;   
+    font-size: 50px; 
+    text-align: center;
+    color: #022B3A;
+    text-shadow: 2px 2px rgb(191, 219, 247);
+    background-color: #FAF9F9;
+    line-height: 100px;
+}
+
+/* scroll-bar style */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #FAF9F9;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #2f587b;
+    width: 0%;
+}
+
+.section-1-container {
+    background-image: url("https://jsproject.s3.amazonaws.com/source.png");
+    background-size: cover;
+    height: 700px;
+    padding-top: 175px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.section-1 {
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    color: #faf9f9;
+    text-shadow: 1px 1px #2f587b;
+    width: 75vw;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 50px;
+    background-color: rgba(191, 219, 247, 0.3);
+}
+
+.section-1-title {
+    padding-bottom: 10px;
+}
+
+
+/* bar-chart */
+.bar-chart-container {
+    position: relative;
+    width: 65vw;
+    height: 32.5vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+.bar-chart-title p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    background-color: rgb(250, 249, 249);
+    width: 65vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 55px;
+}
+
+.bar-chart-footer {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    color: #faf9f9;
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 70px;
+}
+
+
+.bar-chart-info {
+    background-image: url("https://jsproject.s3.amazonaws.com/antarctic-peninsula.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-color: #faf9f9;
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bar-chart-info p {
+    font-family: 'Oswald', sans-serif;    
+    width: 75vw;
+    margin: auto;
+    background-color: rgba(191, 219, 247, 0.3);
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: 1px 1px rgb(47, 88, 123);
+    word-spacing: 2px;
+}
+
+.bar-chart-info p:first-child {
+    padding: 40px;
+}
+
+.bar-chart-info p:last-child {
+    padding: 0 40px 40px 40px;
+}
+
+/* line-chart */
+.line-chart-container {
+    position: relative;
+    width: 65vw;
+    height: 32.5vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+/* highlights */
+.highlight-container {
+    background-image: url("https://jsproject.s3.amazonaws.com/greenland.jpeg");
+    background-size: cover;
+    background-color: rgb(250, 249, 249);
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.highlight-container p {
+    font-family: 'Oswald', sans-serif;    
+    font-size: 18px;
+    word-spacing: 2px;
+
+    color: rgb(2, 43, 58);
+
+    background-color: rgba(191, 219, 247, 0.3);
+    width: 440px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    text-shadow: 1px 1px rgba(225, 229, 242, 0.849);
+}
+
+.highlight-container p:first-child {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.highlight-container p:last-child { 
+    padding-bottom: 50px;
+    font-size: 14px;
+    word-spacing: 1px;
+
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    border-bottom: 2px solid rgb(2, 43, 58);
+}
+
+/* footer */
+.footer {
+    font-family: 'Oswald', sans-serif;    
+    height: fit-content;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #faf9f9;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.footer a:hover {
+    border-bottom: 2px solid #faf9f9;
+}
+
+
+
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbXSwic291cmNlUm9vdCI6IiJ9*/
