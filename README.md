@@ -17,10 +17,6 @@ The web-page was built with *`JavaScript`*, *`CSS3`*, *`HTML5`*, and *`Chart.js`
 ### Wireframe:
 ![wireframe](https://jsproject.s3.amazonaws.com/wireframe.png)
 
-### Live demo:
-![livedemo](https://jsproject.s3.amazonaws.com/cc2.gif)
-
-
 ## Implementation Timeline 
 
 * Day 1 - Set up project skeleton 
