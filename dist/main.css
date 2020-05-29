@@ -219,6 +219,7 @@ a:hover {
 .footer a {
     margin: 10px;
     margin-bottom: 10px;
+    font-size: 35px;
 }
 
 .footer a:hover {
