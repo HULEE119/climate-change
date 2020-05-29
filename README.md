@@ -1,6 +1,6 @@
 # Climate Change: Global Sea Level
 
-[Live Site](https://hulee119.github.io/climate-change/)
+Explore the site: [Live Site](https://hulee119.github.io/climate-change/)
 
 
 ## Climate Change: Global Sea Level
