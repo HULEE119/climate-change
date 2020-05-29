@@ -67,6 +67,10 @@ h1 {
     padding-bottom: 10px;
 }
 
+#source-note {
+    font-size: 20px;
+}
+
 
 /* bar-chart */
 .bar-chart-container {
@@ -142,6 +146,11 @@ h1 {
     margin-bottom: 70px;
 }
 
+
+#chart-note {
+    font-size: 15px;
+    margin-left: 10px;
+}
 
 /* highlights */
 .highlight-container {

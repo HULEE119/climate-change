@@ -13,8 +13,7 @@
 * Wireframes 
     
     Wireframe of Climate Change: Global Sea Level 
-    ![wireframe](https://jsproject.s3.amazonaws.com/wireframe1.png)
-    ![wireframe](https://jsproject.s3.amazonaws.com/wireframe2.png)
+    ![wireframe](https://jsproject.s3.amazonaws.com/wireframe.png)
 
 
 
